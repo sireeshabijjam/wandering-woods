@@ -41,10 +41,8 @@ def k2_game_function():
     pygame.display.set_caption('Wandering in the Woods - K-2 Version')
 
     # Load sounds
-    # Replace with path to your sound
     meet_sound = pygame.mixer.Sound(
         os.path.join(get_base_path(), "rsc", "meet.wav"))
-    # Replace with path to your background music
     pygame.mixer.music.load(os.path.join(get_base_path(), "rsc", "music.wav"))
     pygame.mixer.music.play(-1)  # Play the background music in a loop
 
